@@ -153,7 +153,7 @@ struct PostDetailView: View {
             }
         }
         .sheet(isPresented: $showShareSheet) {
-            if let url = URL(string: "https://desteklio.com/blog/?p=\(post.id)") {
+            if let url = URL(string: "https://xxx.com/?p=\(post.id)") {
                 ShareSheet(items: [url])
             }
         }

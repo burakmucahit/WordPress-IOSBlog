@@ -2,7 +2,7 @@ import Foundation
 
 struct WordPressService {
     private enum API {
-        static let baseURL = "https://desteklio.com/blog/wp-json/wp/v2"
+        static let baseURL = "https://xxx.com/wp-json/wp/v2"
         
         enum Endpoints {
             static let posts = "/posts"
